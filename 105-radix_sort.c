@@ -1,5 +1,7 @@
 #include "sort.h"
 
+void count_sort_LSD(int *array, size_t size, size_t lsd);
+
 /**
  * radix_sort - sorts an array following the Radix sort algorithm
  * @array: array of ints to sort
